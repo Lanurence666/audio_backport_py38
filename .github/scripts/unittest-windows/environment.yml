@@ -1,0 +1,14 @@
+channels:
+  - defaults
+dependencies:
+  - flake8
+  - pytest
+  - pytest-cov
+  - codecov
+  - scipy >= 1.4.1
+  - pip
+  - pip:
+    - future
+    - parameterized
+    - dataclasses
+    - expecttest
